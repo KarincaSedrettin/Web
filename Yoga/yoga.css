@@ -21,12 +21,14 @@ body
 .navbar .nav-link
 {
     color: white;
+    transition: all .5s;
 }
 
 .navbar .nav-item:hover
 {
     
     background-color: #cccccc;
+    transition: all .5s;  
 }
 
 
@@ -74,6 +76,14 @@ body
     margin:3px auto;
     display: block;
 }
+
+.navbar .img-header
+{
+    margin-right: auto;
+}
+
+
+
 .section-1 .paraf p{
     color:#a4e4e9 ;
     font-size: 15px;
@@ -89,13 +99,12 @@ body
     color:#a4e4e9 ;
     font-size: 15px;
     background-color: #333333;
+    border-radius: 2px;
 }
-
 
 .section-1 .bgrd .btn:hover
 {
     background-color: #cccccc;
-    
 }
 
 .section-1 .bgrd-1
@@ -106,9 +115,6 @@ body
     margin-top: -321px;
 }
 
-
-
-    
 .section-2 .bgrd-2
 {
     height: 537px;
@@ -120,6 +126,21 @@ body
     clip-path: polygon(50% 13%, 100% 0, 100% 80%, 0 100%, 0 0);
 }
 
+
+.section-2 .bgrd-2 .btn
+{
+    color:#a4e4e9 ;
+    font-size: 15px;
+    background-color: #333333;
+    border-radius: 2px;
+    
+}
+
+.section-2 .bgrd-2 .btn:hover
+{
+    background-color: #cccccc;
+}
+
 .section-3 
 {
     background-color: #bec6ce;
@@ -128,8 +149,6 @@ body
     margin-top: -164px;
     clip-path: polygon(0 82%, 100% 28%, 100% 42%, 0% 96%);
 }
-
-
 
 .section-4
 {
@@ -146,7 +165,6 @@ body
     background-color: #3f505a;
     clip-path: polygon(0 13%, 100% 0, 100% 100%, 0 93%);
 }
-
 
 .section-4 .spam img[src="../img1/18.png"]
 {
