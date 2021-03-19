@@ -1,0 +1,309 @@
+@media (min-width:992px)
+{
+    .navbar .img-header
+    {
+        display: none ;
+    }
+
+    .navbar .container
+    {
+        max-width: 1167px !important;
+    }
+    .navbar button {
+        
+        padding: 3px 5px
+    }
+} 
+
+@media (min-width: 768px)
+{
+    .navbar .container {
+        max-width: 950px;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 767px)
+{
+    .navbar .container, .container-md, .container-sm {
+        max-width: 650px;
+    }
+}
+
+@media (min-width: 591px) and (max-width: 699px)
+{
+    .navbar .container, .container-md {
+        max-width: 600px;
+    }
+    
+}
+
+@media (max-width:991px)
+{
+
+
+    .navbar .navbar-nav {
+        padding: 0px 0px;
+        font-size: 13px;
+        float: left;
+    }
+
+    .navbar .nav-item {
+        padding: 8px 22px;
+        border-right: 0px;
+    }
+
+    .navbar .nav-link {
+        padding: 0px 10px;
+        border-right: 2px solid green;
+    }
+
+    .navbar button {
+        margin-right: 60px;
+        padding: 3px 5px
+    }
+    .navbar .container, .container-fluid, 
+    .container-lg, .container-md, .container-sm, 
+    .container-xl
+    {
+        margin-left: 0 !important;
+    }
+
+    .section-1 .bgrd .img-header
+    {
+        display: none;
+        float: left;
+    }
+    .section-1 
+    {
+        margin-top: -20px;
+    }
+    .section-2 .bgrd-2
+    {
+        height: 537px;
+        margin-top: -70px;
+        padding-top: 130px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-image: url("../img1/5.png");
+        clip-path: polygon(50% 13%, 100% 0, 100% 80%, 0 100%, 0 0);
+        background-position-y: -175px;
+    }
+
+    .section-2 .bgrd-2 .row
+    {
+        padding: 0 0;
+        font-size: 15px;
+    }
+
+    .section-4 .ant-1 
+    {
+        padding: 10px 20px;
+    }
+
+    .section-6 .our-txt
+    {
+        
+        padding: 20px 0 0 50px;
+        
+    }
+
+    .section-11 img
+    {
+        width: 100%;
+    }
+
+    .section-7 .body-gel 
+    {
+        width: 270px;
+    }
+    .section-7 .body-gel h3
+    {
+        float: left;
+    }
+
+    .section-8 .py-6{
+        padding: 20px 0 0 0;
+        text-align:end;
+    }
+    
+    .section-8 .py-7{
+        padding: 20px 0 0 0 ;
+        text-align: start;
+    }
+
+    .section-9 {
+        margin-top: -80px;
+    }
+
+    .section-9 .row {
+        margin: 100px 0 0 330px;
+    }
+    
+    .section-10 {
+        margin-top: -400px;
+    }
+
+    .footer ul li {
+        padding: 5px;
+        margin-right: 12px;
+    }
+
+}
+
+@media (max-width:1270px)
+{
+    .section-2 .bgrd-2
+    {
+        height: 537px;
+        margin-top: -70px;
+        padding-top: 120px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-image: url("../img1/5.png");
+        clip-path: polygon(50% 13%, 100% 0, 100% 80%, 0 100%, 0 0);
+        background-position-y: -270px;
+    }
+}
+
+@media (max-width:1150px)
+{
+    .section-2 .bgrd-2
+    {
+        height: 537px;
+        margin-top: -70px;
+        padding-top: 120px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-image: url("../img1/5.png");
+        clip-path: polygon(50% 13%, 100% 0, 100% 80%, 0 100%, 0 0);
+        background-position-y: -230px;
+    }
+}
+
+@media (max-width:1020px)
+{
+    .section-2 .bgrd-2
+    {
+        height: 537px;
+        margin-top: -70px;
+        padding-top: 120px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-image: url("../img1/5.png");
+        clip-path: polygon(50% 13%, 100% 0, 100% 80%, 0 100%, 0 0);
+        background-position-y: -200px;
+    }
+}
+
+
+@media (max-width:767px)
+{
+
+    .navbar button {
+        margin-right: initial;
+        padding: 3px 5px
+    }
+    .section-1 
+    {
+        margin-top: -20px !important;
+    }
+
+    .section-2 .bgrd-2 span 
+    {
+        padding: 0px;
+    }
+
+    .section-2 .bgrd-2
+    {
+        height: 537px;
+        margin-top: -70px;
+        padding-top: 130px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-image: url("../img1/5.png");
+        clip-path: polygon(50% 13%, 100% 0, 100% 80%, 0 100%, 0 0);
+        background-position-y: -110px;
+    }
+
+    .section-2 .bgrd-2 .row
+    {
+        padding: 0 0;
+        font-size: 13px;
+    }
+
+    .section-3 {
+        background-color: #bec6ce;
+        background-size: 100%;
+        height: 200px;
+        margin-top: -215px;
+        clip-path: polygon(0 82%, 100% 28%, 100% 42%, 0% 96%);
+    }
+    
+    .section-4 .antreman .btn 
+    {
+        background-color: #49c9d3;
+        color: black;
+        padding: 4px 4px;
+        margin-top: 6px;
+        font-size: small;
+    }
+    .section-4 .ant-1 h4 {
+        font-weight: 500;
+        font-size: 13px;
+    }
+    .section-4 .antreman span
+    {
+        display: none;
+    }
+
+    .section-4 .ant-1 {
+        padding: 10px 10px;
+    }
+    .section-6 img{
+        width: 100%;
+    }
+
+    .section-11 img
+    {
+        width: 100%;
+    }
+
+    .section-8 h2 
+    {
+        margin-bottom: 0px;
+    }
+
+    .section-9 span
+    {
+        margin-right: 10px !important;
+    }
+
+    .section-9 a 
+    {
+        font-size: 24px;
+    }
+
+    .section-10 
+    {
+        margin-top: -420px;
+    }
+
+    .footer h2 
+    {
+        margin-left: -15px;
+    }
+
+    .footer h2 span 
+    {
+        margin-right: 8px;
+    }
+    
+    .footer p 
+    {
+        width: 100%;
+    }
+}
+
+
+
+
