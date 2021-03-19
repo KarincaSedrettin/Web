@@ -27,16 +27,16 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link " href="#">HOME</a>
+                        <a class="nav-link" href="../html/home.html">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#">ABOUT</a>
+                        <a class="nav-link foot-1" data-scroll href="#foot">ABOUT</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#" >BLOG</a>
+                        <a class="nav-link " href="../html/blog.html" >BLOG</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link " href="#" >CONTANT</a>
+                        <a class="nav-link " href="../html/contact.html" >CONTACT</a>
                     </li>
                 </ul>
             </div>
@@ -60,7 +60,13 @@
                         This is also a great reminder that vertical alignment utilities can be <br>
                         used to align different sized elements.
                     </p>
-                    <button href="#" type="button" class="btn ">More</button>
+                    <p class="cell heding">
+                        Various buttons are supported as part of these navbar forms, too. <br> 
+                        This is also a great reminder that vertical alignment utilities can be <br>
+                        used to align different sized elements.
+                    </p>
+                    <button href="#" type="button" class="btn" id="more" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">More</button>
+                    
                 </div>
                 
             </div>
@@ -77,12 +83,48 @@
         
         
     </section>
+    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Yeni Mesaj</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="recipient-name" class="col-form-label">Alıcı:</label>
+                            <input type="text" class="form-control" id="recipient-name">
+                        </div>
+                        <div class="form-group">
+                            <label for="message-text" class="col-form-label">Mesaj:</label>
+                            <textarea class="form-control" id="message-text"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Mesajı Gönder</button>
+                </div>
+            </div>
+        </div>
+    </div> -->
 
     <section class="section-2">
         <div class="bgrd-2">
             <div class="container">
                 <div class="title-our text-center">
-                    <h1><span><img src="../img1/18.png" alt=""></span>OUR PHILOSOPHY<span><img src="../img1/19.png" alt=""></span</h1>
+                    <h1>
+                        <span>
+                            <img src="../img1/18.png" alt="">
+                        </span>
+                            OUR PHILOSOPHY
+                        <span >
+                            <img src="../img1/19.png" alt="">
+                        </span>
+                    </h1>
                     <div class="divider"></div>
                 </div>
                 <div class="row">
@@ -99,7 +141,7 @@
                             maecenas accumsan lacus vel facilisis. 
                         </p>
                         </div>
-                        <div>
+                        <div class="ml-auto">
                         <button type="button" class="btn">Read More</button>
                         </div>
                     </div>
@@ -115,7 +157,7 @@
         <div class="antreman">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 text-center">
+                    <div class="col-sm-4 col-md-4 text-center">
                         <div class="text-white ant-1">
                             <h4>FIRST CLASS FREE</h4>
                             <img src="../img1/7.png" >
@@ -127,7 +169,7 @@
                             <button type="button" class="btn">Read More</button>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center mer-2">
+                    <div class="col-sm-4 col-md-4 text-center mer-2">
                         <div class="text-white ant-1">
                             <h4>FIRST CLASS FREE</h4>
                             <img src="../img1/7.png" >
@@ -139,7 +181,7 @@
                             <button type="button" class="btn">Read More</button>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center mer-3">
+                    <div class="col-sm-4 col-md-4 text-center mer-3">
                         <div class="text-white ant-1">
                             <h4>FIRST CLASS FREE</h4>
                             <img src="../img1/7.png" >
@@ -164,18 +206,18 @@
                 <h2>OUR FOR BEGINNERS</h2>
             </div>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-6 col-md-6">
                     <div class="our-txt ">
                         <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euimdod tincidunt ut laoreet dolore magna aliquam erat volutpat.  
                             Lorem ipsum dolor sit amet. consectetuer adipiscing elit, sed diam nonummy nibh euimdod tincidunt ut laoreet dolore magna aliquam erat volutpat.  
                         </p>
-                        <div class="col-xs-12 text-left">
+                        <div class="col-xs-12 col-sm-12  ml-auto">
                             <span class="img-txt"><img src="../img1/20.png" alt=""></span>
                             <a href=""> Read More</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6 col-md-6">
                     <div class="img-body px-5">
                         <img src="../img1/9.png" alt="img9">
                     </div>
@@ -184,23 +226,30 @@
         </div>
     </section>
 
-    <section class="section-11">
+    <section class="section-11 text-center">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-6 col-md-6">
                     <div class="img-raw">
-                    <img src="../img1/10.png" alt="">
+                        <img src="../img1/10.png" alt="">
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6 col-md-6">
                     <div class="img-raw">
-                    <img src="../img1/11.png" alt="">
+                        <img src="../img1/11.png" alt="">
                     </div>
                 </div>
-                <div class=" col-md-12 body-hsf text-center">
+                <div class="col-sm-12 col-md-12 body-hsf text-center">
                     <h1>TOGA</h1>
                     <h4>registration open</h4>
-                    <h2><span><img src="../img1/21.png" alt="22"></span>GET 15% OFF<span><img src="../img1/22.png" alt="22"></span></h2>
+                    <h2>
+                        <span>
+                            <img src="../img1/21.png" alt="22">
+                        </span>GET 15% OFF
+                        <span>
+                            <img src="../img1/22.png" alt="22">
+                        </span>
+                    </h2>
                     <button type="button" class="btn">SING UP NOW</button>
                 </div>
             </div>
@@ -212,7 +261,7 @@
             <div class="row">
                 <div class="col-sm-6 col-md-4 thore">
                 <div class="body-gel">
-                    <h3>first Class Free</h3>
+                    <h3 class="py-1">first Class Free</h3>
                     <img src="../img1/13.png" alt="">
                     <div class="text-body">
                     <p>Lorem ipsum
@@ -227,7 +276,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 thore">
                 <div class="body-gel">
-                    <h3>first Class Free</h3>
+                    <h3 class="py-1">first Class Free</h3>
                     <img src="../img1/14.png" alt="">
                     <div class="text-body">
                     <p>Lorem ipsum
@@ -242,7 +291,7 @@
                 </div>
                 <div class="col-sm-6 col-md-4 thore">
                 <div class="body-gel">
-                    <h3>first Class Free</h3>
+                    <h3 class="py-1">first Class Free</h3>
                     <img src="../img1/15.png" alt="">
                     <div class="text-body">
                     <p>Lorem ipsum
@@ -265,12 +314,12 @@
         <div class="container">
             <h2>OUR METHODOLOGY</h2>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-sm-6 col-md-6">
                 <div class="py-6">
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euimdod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quais nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</p>
                 </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-sm-6 col-md-6">
                 <div class="py-7">
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euimdod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quais nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</p>
                 </div>
@@ -297,37 +346,70 @@
     </section>
 
     <div class="section-10"></div>
-    <section class="footer text-center">
+    <section id="foot" class="footer">
         <div class="container">
             <div class="row" style="margin-top: 50px;">
-            <div class="col-xs-12 col-sm-6 col-md-4 fot">
-                <h2><span><img src="../img1/21.png" alt="20"></span>CONTANT</h2>
+            <div class="col-xs-12 col-sm-4 col-md-4 fot">
+                <h2><span><img src="../img1/21.png" alt="20"></span>ŞİRKET</h2>
                 <P>Lorem ipsum dolor sit amet,</P>
                 <P>consectetuer adipiscing eliT</P>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 fot">
-                <h2><span><img src="../img1/21.png" alt="20"></span>ABOUT</h2>
+            <div class="col-xs-12 col-sm-4 col-md-4 fot">
+                <h2><span><img src="../img1/21.png" alt="20"></span>WEB SERVİS</h2>
                 <P>Lorem ipsum dolor sit amet,</P>
                 <P>consectetuer adipiscing eliT</P>
             </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 fot">
+            <div class="col-xs-12 col-sm-4 col-md-4 fot">
                 <h2><span><img src="../img1/21.png" alt="20"></span>FOLLOW US</h2>
                 <ul class="list-unstyled text-left">
-                <li><i class="fab fa-twitter"></i></li>
-                <li><i class="fab fa-facebook-f"></i></li>
-                <li><i class="fab fa-instagram"></i></li>
-                <li><i class="fab fa-youtube"></i></li>
+                <li><a href="https://twitter.com/?lang=tr"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="https://tr-tr.facebook.com/"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/?hl=tr"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a></li>
                 </ul>
             </div>
             </div>
         </div>
     </section>
     
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../bower_components/Font-Awesome/js/fontawesome.min.js"></script>
+    <script src="../javascript/smooth-scroll.js"></script>
 
+    <script>
+        $(".navbar-toggler").on("click", function(){
+            $("#navbarSupportedContent").toggleClass("collapse")
+        })
 
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1000,
+            speedAsDuration: true
+        });
 
+        $(document).ready(function() {
 
-    <script src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="./bower_components/Font-Awesome/js/fontawesome.min.js"></script>
+            $('.btn').click(function() {
+
+                $(".cell").toggleClass("heding")
+                if($(".cell").hasClass("heding")){
+                    $('.heding').slideUp(1000)
+                    $(".section-1 .bgrd").css(
+                    {
+                        "height": "350px",
+                        "clip-path": "polygon(100% 0, 100% 80%, 50% 100%, 0 80%, 0% 0%)"
+                    });
+                }else{
+                    $(".section-1 .bgrd").css(
+                    {
+                        "height": "416px",
+                        "clip-path": "polygon(100% 0, 100% 84%, 50% 100%, 0 84%, 0% 0%)"
+                    });
+                }
+            });
+            
+        });
+
+    </script>
 </body>
 </html>
